@@ -85,6 +85,7 @@ class Bip44Coins(BipCoins):
     VERGE = auto()
     ZCASH = auto()
     ZILLIQA = auto()
+    FINDORA = auto()
     # Test nets
     BITCOIN_CASH_TESTNET = auto()
     BITCOIN_CASH_SLP_TESTNET = auto()

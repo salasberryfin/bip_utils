@@ -97,6 +97,7 @@ class Bip44ConfGetterConst:
         Bip44Coins.ZCASH: Bip44Conf.ZcashMainNet,
         Bip44Coins.ZCASH_TESTNET: Bip44Conf.ZcashTestNet,
         Bip44Coins.ZILLIQA: Bip44Conf.Zilliqa,
+        Bip44Coins.FINDORA: Bip44Conf.Findora,
     }
 
 
