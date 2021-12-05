@@ -63,7 +63,8 @@ class Bip32Ed25519SlipBase(Bip32Base):
         Returns:
             bool: True if supported, false otherwise.
         """
-        return False
+        # Findora user unhardened derivation for ed25519
+        return True
 
     #
     # Protected methods
