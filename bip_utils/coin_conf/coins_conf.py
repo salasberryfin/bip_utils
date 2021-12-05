@@ -671,11 +671,3 @@ class CoinsConf:
             "addr_hrp": "zil",
         },
     )
-
-    # Configuration for Findora
-    Findora: CoinConf = CoinConf(
-        coin_name=CoinNames("Findora", "FRA"),
-        params={
-            "addr_ss58_format": 0,
-        },
-    )

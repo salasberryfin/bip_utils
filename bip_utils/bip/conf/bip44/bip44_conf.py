@@ -976,18 +976,3 @@ class Bip44Conf:
         addr_cls=ZilAddr,
         addr_params={},
     )
-
-    # Configuration for Findora - FRA
-    Findora: BipCoinConf = BipCoinConf(
-        coin_names=CoinsConf.Findora.CoinNames(),
-        coin_idx=917,
-        is_testnet=False,
-        def_path=NOT_HARDENED_DEF_PATH,
-        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
-        wif_net_ver=None,
-        bip32_cls=Bip32Ed25519Slip,
-        addr_cls=SubstrateEd25519Addr,
-        addr_params={
-            "ss58_format": CoinsConf.Findora.Params("addr_ss58_format"),
-        },
-    )
